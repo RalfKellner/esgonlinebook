@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: 00_welcome
+chapters:
+- file: 01_esg_ratings
+- file: 02_esg_rating_divergence
+- file: 03_refinitiv_esg_rating
+
