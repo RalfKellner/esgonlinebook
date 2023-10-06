@@ -1,0 +1,601 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Environmental, social and corporate governance &#8212; Environmental, Social and Governance Analytics</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=ac02cc09edc035673794" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" href="_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794" />
+  <script src="_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=ac02cc09edc035673794"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = '01_esg_ratings';</script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="ESG rating divergence" href="02_esg_rating_divergence.html" />
+    <link rel="prev" title="Welcome" href="00_welcome.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+  
+
+<a class="navbar-brand logo" href="00_welcome.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/course_logo.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/course_logo.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="00_welcome.html">
+                    Welcome
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Environmental, social and corporate governance</a></li>
+<li class="toctree-l1"><a class="reference internal" href="02_esg_rating_divergence.html">ESG rating divergence</a></li>
+<li class="toctree-l1"><a class="reference internal" href="03_refinitiv_esg_rating.html">Refinitiv ESG data</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F01_esg_ratings.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/01_esg_ratings.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Environmental, social and corporate governance</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definition-of-esg">Definition of ESG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#esg-rating-dimensions">ESG rating dimensions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#esg-rating-agencies">ESG rating agencies</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scope-of-esg-ratings">Scope of ESG ratings</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-rating-agencies-quantify-their-ratings">How rating agencies quantify their ratings</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#which-data-is-used-by-rating-agencies">Which data is used by rating agencies</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#impact-of-esg-ratings">Impact of ESG ratings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regulation">Regulation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-agency-practices">Rating agency practices</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="environmental-social-and-corporate-governance">
+<h1>Environmental, social and corporate governance<a class="headerlink" href="#environmental-social-and-corporate-governance" title="Permalink to this heading">#</a></h1>
+<p>Originally, the value and risk of companies mainly has been assessed by financial factors, e.g., balance sheet, financial, income or cash flow statements. These numbers are used to assess the future income flows and risks of a company. Nowadays, so called non-financial factors are more and more included into the company evaluation process which extends the analysis to the question how the company operates with respect to environmental, social and corporate governance (ESG) standards. Over time, the topic ESG has become more important and popular. For instance, the cell below shows the google trend search over the past 20 years.</p>
+<p>In addition, ESG information is more and more included into investment decisions. For instance, according to the <a class="reference external" href="https://www.unpri.org/annual-report-2023">2023 annual report</a> of the Principles for Responsible Investments more than 5,000 professional investors with far more than 100 trillion US Dollars assets under management have commited themselves to include ESG information in their investement decisions. This creates a demand for ESG ratings and is likely one of the reasons why we observe an increasing number of rating agencies offering ESG ratings. However, a huge challenge is the well documented inconsistency of ratings provided by these agencies. ESG rating inconsitencies point to the need for ESG standards and a common taxonomy which is important to reduce ESG uncertainty and its potential negative consequences. Thus, the aim of this course is to gain a deeper understanding for the ESG topic, hereby, putting an emphasis on the ESG rating inconsistency.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pylab</span> <span class="k">as</span> <span class="nn">plt</span>
+
+<span class="n">df_world</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/esg_world.csv&quot;</span><span class="p">)</span>
+<span class="n">df_world</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df_world</span><span class="o">.</span><span class="n">date</span><span class="p">)</span>
+<span class="n">df_world</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s2">&quot;date&quot;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+
+<span class="n">df_us</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/esg_us.csv&quot;</span><span class="p">)</span>
+<span class="n">df_us</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df_us</span><span class="o">.</span><span class="n">date</span><span class="p">)</span>
+<span class="n">df_us</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s2">&quot;date&quot;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+
+<span class="n">df_ger</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/esg_ger.csv&quot;</span><span class="p">)</span>
+<span class="n">df_ger</span><span class="o">.</span><span class="n">index</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">to_datetime</span><span class="p">(</span><span class="n">df_ger</span><span class="o">.</span><span class="n">date</span><span class="p">)</span>
+<span class="n">df_ger</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s2">&quot;date&quot;</span><span class="p">],</span> <span class="n">axis</span> <span class="o">=</span> <span class="mi">1</span><span class="p">,</span> <span class="n">inplace</span> <span class="o">=</span> <span class="kc">True</span><span class="p">)</span>
+
+<span class="n">df_all</span> <span class="o">=</span> <span class="n">df_world</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df_us</span><span class="p">,</span> <span class="n">left_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">right_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">suffixes</span><span class="o">=</span><span class="p">(</span><span class="s2">&quot;_world&quot;</span><span class="p">,</span> <span class="s2">&quot;_us&quot;</span><span class="p">))</span><span class="o">.</span><span class="n">merge</span><span class="p">(</span><span class="n">df_ger</span><span class="p">,</span> <span class="n">left_index</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">right_index</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">df_all</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;world&quot;</span><span class="p">,</span> <span class="s2">&quot;us&quot;</span><span class="p">,</span> <span class="s2">&quot;germany&quot;</span><span class="p">]</span>
+<span class="n">df_all</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">title</span> <span class="o">=</span> <span class="s2">&quot;Google trend search &#39;ESG&#39; worldwide&quot;</span><span class="p">,</span> <span class="n">xlabel</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="n">ylabel</span> <span class="o">=</span> <span class="s1">&#39;relative search interest&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/6351d3fb9d45b80c8dc407b60f9458d9bce7f1bbb8f8c1d5cb1d4096859e144d.png" src="_images/6351d3fb9d45b80c8dc407b60f9458d9bce7f1bbb8f8c1d5cb1d4096859e144d.png" />
+</div>
+</div>
+<section id="definition-of-esg">
+<h2>Definition of ESG<a class="headerlink" href="#definition-of-esg" title="Permalink to this heading">#</a></h2>
+<p>In contrast to measurable company events such as the default of a company, the failure or non-failure of ESG standards is not unambiguously defined. Even worse, two perspectives are common when it comes to the ESG defintion. (1) ESG quality measures the company’s impact on the enironment, employees, customers and its community, and, (2) ESG quality quantifies the impact of environmental, social and governance factors on the company’s business and operations. The latter point of view is more common for ESG rating providers.</p>
+<p>Both defintions must not necessarily rule out similar conclusion of decision makers, but, also do not ensure consistency. Under (1), companies can improve their ESG quality by direct actions which improve the company’s environment. Under (2), ESG factors serve as an additional source for strategic planning in order to cope with future developments which may harm the company’s business and operations.</p>
+<p>Accordingly, conflicts arise if investors assume (1) and receive ratings according to (2), which is usually the case as ESG rating agencies mostly follow (2). Easily spoken, (1) measures the impact of a company on the world, and, (2) measure the impact of the world on the company.</p>
+</section>
+<section id="esg-rating-dimensions">
+<h2>ESG rating dimensions<a class="headerlink" href="#esg-rating-dimensions" title="Permalink to this heading">#</a></h2>
+<p>Rating providers first build ratings or scores on individual dimensions, e.g., environmental, social and governance scores. The final ESG rating is an aggregated score of its components, however, the weighting of each component is set by the agency (also on lower levels of aggregation). In addition, rating agencies tend to use subcomponents for each component and aggregates these for component scores. All scores are build upon historical data and may further be accompanied with theoretical reasoning and expert judgement. When it comes to the statistical analysis of historical data, agencies use a large set of partly different indicators. Another important note is the differentiation between absolute and relative ESG performance. Some rating agencies either build industry specific agencies which point towards ESG quality in relation to peer companies. However, other agencies try to provide a general point of view by assessing the absolute ESG quality.</p>
+</section>
+<section id="esg-rating-agencies">
+<h2>ESG rating agencies<a class="headerlink" href="#esg-rating-agencies" title="Permalink to this heading">#</a></h2>
+<p>ESG rating agencies started to emerge a few decades ago, however, they gained most attraction in the past years. ESG ratings are often used to confirm certain quality standards which is popular for sustainable investing. Many ESG rating agencies are financial data providers, let us take a look at some examples.</p>
+<ul class="simple">
+<li><p>Refinitiv: rebranded from Thomson Reuters, it has been purchased by the London Stock Exchange Group in 2021 and offers ESG ratings for approximately 12,500 companies. We have access to these ratings with the university’s license</p></li>
+<li><p>MSCI: originally a part of Morgan Stanley (which are well known for building stock market indexes), they became a serparately traded company which bought RiskMetrics whose subsidiary KLD has been one of the earliest data provider for US sustainability data; MSCI provides ESG ratings for about 8,500 companies</p></li>
+<li><p>Sustainalytics: owned by Morningstar which provides ratings for mutual and exchange-traded funds; Sustainalytics provides ESG ratings for about 13,000 which are at least in aggregated form freely accessible for most companies</p></li>
+<li><p>ISS: a subsidiary of Institutional Shareholder Services which provides recommendations to investment management firms; ISS provides ESG ratings for about 12,000 companies; Since 2020, Deutsche Börse owns 80% of ISS</p></li>
+</ul>
+<section id="scope-of-esg-ratings">
+<h3>Scope of ESG ratings<a class="headerlink" href="#scope-of-esg-ratings" title="Permalink to this heading">#</a></h3>
+<p>We will see later in more detail that rating agencies have a different scope of a company’s quantified ESG quality, however, most rating agencies relate ESG quality and investment risk. The basic assumption is that companies may face business drawbacks and higher risks when they fail to meet ESG standards (in the future). Some agencies even claim to construct their ESG ratings such that they are supposed to be of predictive nature for future stock asset return performance. At the same time, other agencies additionally claim that their ratings give an assessment for the company’s ESG commitment, its social impact and its transparency.</p>
+</section>
+<section id="how-rating-agencies-quantify-their-ratings">
+<h3>How rating agencies quantify their ratings<a class="headerlink" href="#how-rating-agencies-quantify-their-ratings" title="Permalink to this heading">#</a></h3>
+<p>Rating providers either use a credit rating alike system, e.g., A+ (best) to D- (worst) or percentiles/scores, i.e., a value between 0 and 100. Here, 0 and 100 can mean very good or very bad performance, respectively. Either way, both measurements are ordinal scales which makes rank-based correlations the best choices for assessing rating correlation among different agencies.</p>
+</section>
+<section id="which-data-is-used-by-rating-agencies">
+<h3>Which data is used by rating agencies<a class="headerlink" href="#which-data-is-used-by-rating-agencies" title="Permalink to this heading">#</a></h3>
+<p>Until today, ESG reporting standarads are in their infancy which is why rating agencies collect their own ESG data from a broader spectrum of data sources. Examples are public financial reports, news, voluntary ESG reports or answers from solicited questionnaires. See the links below which give you examples for Apple Inc.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.sec.gov/ix?doc=/Archives/edgar/data/320193/000032019322000108/aapl-20220924.htm">Public 10-K report to the SEC</a></p></li>
+<li><p><a class="reference external" href="https://s2.q4cdn.com/470004039/files/doc_downloads/2022/08/2022_Apple_ESG_Report.pdf">Voluntary ESG report</a></p></li>
+<li><p><a class="reference external" href="https://www.apple.com/newsroom/2022/10/apple-calls-on-global-supply-chain-to-decarbonize-by-2030/">News example</a></p></li>
+</ul>
+<p>Due to the lack of standardization, available data among companies is very different leading to incomplete structured datasets. Additionally, if companies report for the same topic, they may use different variables or scales.</p>
+</section>
+<section id="impact-of-esg-ratings">
+<h3>Impact of ESG ratings<a class="headerlink" href="#impact-of-esg-ratings" title="Permalink to this heading">#</a></h3>
+<p>Unfortunately, ESG ratings usually have not the impact they claim to have. ESG funds sometimes invest more in companies with greater failure with labor and environmental laws than non-ESG funds <a class="reference external" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3826357">(Raghunandan and Rajgopal, 2022)</a>. Investors which sign the Principles for Responsible Investment seem not to invest in companies with better ESG performance <a class="reference external" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3525530">(Gibson et al., 2022)</a>. Furthermore, a large survey study by <a class="reference external" href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3708495">(Atz et al., 2022)</a> shows that ESG investing has been indistinguishable from other investment strategies.</p>
+</section>
+</section>
+<section id="regulation">
+<h2>Regulation<a class="headerlink" href="#regulation" title="Permalink to this heading">#</a></h2>
+<p>While most of ESG regulation is not mandatory nor harmonized on a global level, ongoing developments head towards clear ESG disclosure rules. In the US, the Securities and Exchange Commission (SEC) requires publicly listed companies to disclose information that may be material to investors. This includes risks which are related to ESG factors. More recently, the SEC proposed the <a class="reference external" href="https://www.sec.gov/files/33-11042-fact-sheet.pdf">enhancement and standardization of climate-related disclosure</a>. This <a class="reference external" href="https://youtu.be/-V12MqwVHuA?si=XjIA3ysYGefTxliA">video</a> makes it very clear that the SEC aims for standardization of ESG information to improve ESG assessment from an investor’s perspective. To the best of my knowledge, SEC rules are the only mandatory framework of ESG disclosure in the US. However, voluntary international standards exist, e.g., the <a class="reference external" href="https://www.globalreporting.org/">Global Reporting Initiative</a>, the <a class="reference external" href="https://sasb.org/">Sustainability Accounting Standards Board</a>, <a class="reference external" href="https://www.fsb-tcfd.org/">the Task Force on Climate-Related Financial Disclosure</a> and <a class="reference external" href="https://www.ifrs.org/groups/international-sustainability-standards-board/">the International Sustainability Standard Board</a>.</p>
+<p>The EU and the UK already adopted mandated rules which affect ESG disclosure. The Fincancial Conduct Authority in the UK confirmed rules for climate-related disclosure in 2021 which came into play in 2022. According to these rules, issuers of listed equity shares or shares represented by certificates must include statements in the annual financial reports setting out whether their disclosures meet the recommendations of the Taskforce on Climate-related Financial Disclosures (TCFD). If they don’t, they’ll need to explain why. FCA-regulated asset managers and asset owners - including life insurers and pension providers - will have to disclose how they take climate-related risks and opportunities into account in managing investments. They’ll also have to make disclosures about the climate-related attributes of their products.</p>
+<p>In the EU, companies with more than 500 employees must disclose non-financial and diversity information under the Non-Financial Reporting Directive (NFRD, Directive 2014/95/EU). However, great flexibility is given to these companies in terms of how they report this information. The Corporate Sustainability Reporting Directive (CSRD)  extends the and looks to address key structural weaknesses in current ESG regulation reporting. More companies (appr. 50,000 instead of 12,000) need to disclose ESG information and the scope of reporting is broadened. The CSRD rules apply to the financial year 2024 and will be reported first in 2025. Further important EU regulations are the Taxonomy Regulation (uniyfing ESG taxonomy), the Sustainable Finance Disclosure Regulation (transparency in sustainable investment) and the Corporate Due Dilligence Directive (minimze human rights and environmental risks). See this <a class="reference external" href="https://www.squirepattonboggs.com/-/media/files/insights/publications/2023/07/esg-laws-across-the-world/esg-laws-across-the-world.pdf?rev=995db37cd01d448da71ab7853ff25867">document</a> for more ESG regulation information worldwide.</p>
+</section>
+<section id="rating-agency-practices">
+<h2>Rating agency practices<a class="headerlink" href="#rating-agency-practices" title="Permalink to this heading">#</a></h2>
+<p>Given heterogeneous ESG reporting standards, information which is available to the public as well as ESG rating agencies differs which already introduces heterogeneity with respect to the definition and quantification of ESG risks. Without a precise definition for ESG risk exposure and how to measure it, rating agencies must make decision on their own. This creates rating divergence whose origins are studied in detail by the paper of <a class="reference external" href="https://academic.oup.com/rof/article/26/6/1315/6590670">Berg et al. (2022)</a>. Let us take a look at their most important findings in the next chapter.</p>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  <!-- Previous / next buttons -->
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="00_welcome.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Welcome</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="02_esg_rating_divergence.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">ESG rating divergence</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#definition-of-esg">Definition of ESG</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#esg-rating-dimensions">ESG rating dimensions</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#esg-rating-agencies">ESG rating agencies</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#scope-of-esg-ratings">Scope of ESG ratings</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#how-rating-agencies-quantify-their-ratings">How rating agencies quantify their ratings</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#which-data-is-used-by-rating-agencies">Which data is used by rating agencies</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#impact-of-esg-ratings">Impact of ESG ratings</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#regulation">Regulation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rating-agency-practices">Rating agency practices</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Prof. Dr. Ralf Kellner
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  <p class="copyright">
+    
+      © Copyright 2022.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=ac02cc09edc035673794"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=ac02cc09edc035673794"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
